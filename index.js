@@ -10,13 +10,8 @@ const genres = [
 for (let i = 0; i < genres.length; i++) {
     const a = genres[i]
 
-
-
-
-
-
     let listContainer = document.getElementById("list-container") 
-    const olNode = document.createElement("ol")
+    const olNode = document.createElement("ul")
     olNode.classList.add("list")
     let newListNode = document.createElement("li")
     newListNode.innerText = a
